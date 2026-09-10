@@ -1,0 +1,5 @@
+mine_id,mine_name,latitude,longitude,methane_ppm,spm_ug_m3,inspection_score,ppe_compliance,previous_accidents,previous_near_misses,open_compliance_issues,days_since_last_inspection,production_deviation,accident_occurred,accident_severity
+mine-1,Jharia Open Cast Mine Pit-3,23.7500,86.4167,820,310,64,84,3,15,4,5,-14.2,1,Serious
+mine-2,Raniganj Underground Mine Shaft-2,23.6167,87.1333,410,140,92,98,0,2,1,2,2.8,0,None
+mine-3,Talcher Open Cast Mine,20.9500,85.2167,550,240,78,92,1,7,2,4,-1.5,0,None
+mine-4,North Karanpura Opencast Project,23.8500,85.1500,1150,420,46,71,4,26,6,17,-42.1,1,Fatal

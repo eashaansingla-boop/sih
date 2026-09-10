@@ -1,0 +1,29 @@
+{
+  "name": "coal-mine-governance-api",
+  "version": "1.0.0",
+  "description": "AI-Based Smart Governance & Compliance Monitoring System for Coal Mines - Backend API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "coal-mines",
+    "governance",
+    "compliance",
+    "smart-india-hackathon"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.115.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "multer": "^2.3.0",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
