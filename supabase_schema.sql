@@ -244,8 +244,8 @@ INSERT INTO subsidiaries (id, name, code, headquarters) VALUES
 ON CONFLICT (code) DO NOTHING;
 
 INSERT INTO mines (id, name, code, subsidiary_id, mine_type, latitude, longitude, location_name, state, manager_name, contact_phone, operational_status, risk_score, risk_level) VALUES
-('m1111111-1111-1111-1111-111111111111', 'Jharia Open Cast Mine Pit-3', 'JHR-OCP3', 'b3333333-3333-3333-3333-333333333331', 'Open Cast', 23.7500, 86.4167, 'Jharia, Dhanbad', 'Jharkhand', 'Rajesh Sharma', '+91 9876543210', 'Active', 78, 'High'),
-('m2222222-2222-2222-2222-222222222222', 'Raniganj Underground Mine Shaft-2', 'RNG-UG2', 'b3333333-3333-3333-3333-333333333332', 'Underground', 23.6167, 87.1333, 'Raniganj, Paschim Bardhaman', 'West Bengal', 'Amitabh Roy', '+91 9876543211', 'Active', 35, 'Low'),
-('m3333333-3333-3333-3333-333333333333', 'Talcher Open Cast Mine', 'TLC-OCP1', 'b3333333-3333-3333-3333-333333333333', 'Open Cast', 20.9500, 85.2167, 'Talcher, Angul', 'Odisha', 'Suresh Patnaik', '+91 9876543212', 'Active', 62, 'Moderate'),
-('m4444444-4444-4444-4444-444444444444', 'North Karanpura Opencast Project', 'NKP-OCP', 'b3333333-3333-3333-3333-333333333334', 'Open Cast', 23.8500, 85.1500, 'Chatra/Hazaribagh', 'Jharkhand', 'Vikram Singh', '+91 9876543213', 'Active', 88, 'Critical')
+('c1111111-1111-1111-1111-111111111111', 'Jharia Open Cast Mine Pit-3', 'JHR-OCP3', 'b3333333-3333-3333-3333-333333333331', 'Open Cast', 23.7500, 86.4167, 'Jharia, Dhanbad', 'Jharkhand', 'Rajesh Sharma', '+91 9876543210', 'Active', 78, 'High'),
+('c2222222-2222-2222-2222-222222222222', 'Raniganj Underground Mine Shaft-2', 'RNG-UG2', 'b3333333-3333-3333-3333-333333333332', 'Underground', 23.6167, 87.1333, 'Raniganj, Paschim Bardhaman', 'West Bengal', 'Amitabh Roy', '+91 9876543211', 'Active', 35, 'Low'),
+('c3333333-3333-3333-3333-333333333333', 'Talcher Open Cast Mine', 'TLC-OCP1', 'b3333333-3333-3333-3333-333333333333', 'Open Cast', 20.9500, 85.2167, 'Talcher, Angul', 'Odisha', 'Suresh Patnaik', '+91 9876543212', 'Active', 62, 'Moderate'),
+('c4444444-4444-4444-4444-444444444444', 'North Karanpura Opencast Project', 'NKP-OCP', 'b3333333-3333-3333-3333-333333333334', 'Open Cast', 23.8500, 85.1500, 'Chatra/Hazaribagh', 'Jharkhand', 'Vikram Singh', '+91 9876543213', 'Active', 88, 'Critical')
 ON CONFLICT (code) DO NOTHING;
